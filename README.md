@@ -1,7 +1,7 @@
 # linux-basics
 Anotações de Linux e redes - início em cibersegurança
 
-Este repositório contèm minhas anotações enquanto aprendo Linux e redes para cibersegurança.
+Este repositório contém minhas anotações enquanto aprendo Linux e redes para cibersegurança.
 
 ## Comandos aprendidos
 
