@@ -3,16 +3,8 @@ Anotações de Linux e redes - início em cibersegurança
 
 Este repositório contém minhas anotações enquanto aprendo Linux e redes para cibersegurança.
 
-## Comandos aprendidos
+## Conteúdo
 
-### ls
-Lista arquivos e diretórios
+- comandos.md → comandos básicos do Linux
 
-### cd
-Navega entre diretórios
-
-### pwd
-Mostra o caminho atual
-
-### mkdir
-Cria diretórios
+- [Comandos básicos do Linux](comandos.md)
