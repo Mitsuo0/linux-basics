@@ -40,7 +40,7 @@ Exemplo:
 se não existir novo_arquivo.txt cria um com este nome (nestes dois casos arquivo.txt permanece
 inalterado)
 
-##cat
+## cat
 Exibe o conteúdo de arquivos no terminal sem abrir o editor
 
 Exemplo:
