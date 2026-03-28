@@ -14,3 +14,9 @@ cd /home
 
 ## pwd
 Mostra diretório atual
+
+## touch
+Cria arquivos vazios
+
+Exemplo:
+touch arquivo.txt
