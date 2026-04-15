@@ -78,63 +78,72 @@ cat arquivo.txt
 ```
 *origem: concatenate*
 
-##mkdir
+## mkdir
+
 Cria diretórios (pastas)
 
-Exemplo: mkdir nome_pasta
+- Exemplo: mkdir nome_pasta
 
-##mv
+## mv
+
 Move ou renomeia arquivos e diretórios
 
-Exemplo: `mv arquivo.txt pasta/`
-Exemplo: `mv antigo.txt novo.txt`
+- Exemplo: `mv arquivo.txt pasta/`
+- Exemplo: `mv antigo.txt novo.txt`
 
-##cp
+## cp
+
 Copia arquivos
 
-Exemplo: `cp arquivo.txt copia.txt`
-Exemplo: `cp arquivo.txt pasta/`
+- Exemplo: `cp arquivo.txt copia.txt`
+- Exemplo: `cp arquivo.txt pasta/`
 
-##rm
+## rm
+
 Remove arquivos
 
-Exemplo: `rm arquivo.txt`
-Exemplo: `rm -i arquivo.txt` *pede confirmação*
+- Exemplo: `rm arquivo.txt`
+- Exemplo: `rm -i arquivo.txt` *pede confirmação*
 
-##chmod
+## chmod
+
 Altera permissões de arquivos
 
-Permissões:
-r = leitura
-w = escrita
-x = execução
+Permissões:  
+- r = leitura
+- w = escrita
+- x = execução
 
-Valores:
-4 = leitura
-2 = escrita
-1 = execução
+Valores:  
+- 4 = leitura
+- 2 = escrita
+- 1 = execução
 
-Exemplo: `chmod 644 arquivo.txt`
-Exemplo: `chmod 600 arquivo.txt`
-Exemplo: `chmod +x script.sh`
+- Exemplo: `chmod 644 arquivo.txt`
+- Exemplo: `chmod 600 arquivo.txt`
+- Exemplo: `chmod +x script.sh`
 
-##git status
+## git status
+
 Mostra o estado dos arquivos no repositório
 
-Exemplo: git status
+- Exemplo: git status
 
-##git add
+## git add
+
 Adiciona arquivos para o commit
 
-Exemplo: `git add .`
+- Exemplo: `git add .`  
 *ponto = tudo que está na pasta atual*
 
-##git commit
+## git commit
+
 Salva as alterações localmente
 
-Exemplo: `git commit -m "mensagem"`
+- Exemplo: `git commit -m "mensagem"`
 
-##git push
+## git push
+
 Envia as alterações para o GitHub
 
-Exemplo: `git push`
+- Exemplo: `git push`
