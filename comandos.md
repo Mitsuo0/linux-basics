@@ -6,14 +6,35 @@ Lista arquivos
 Exemplo:
 ls -la
 
+- -l detalhado
+Mostra detalhes do arquivo (permissões, dono, tamanho, data)
+
+- -a inclui arquivos ocultos
+
+Dica extra:
+ls -lh
+
+- tamanhos legíveis(KB,MB)
+
 ## cd
 Muda de diretório
 
 Exemplo:
 cd /home
 
+Complementos importantes:
+
+cd ..
+- volta uma pasta
+
+cd ~
+- vai para home
+
+
 ## pwd
 Mostra diretório atual
+
+(origem: print working directory)
 
 ## touch
 Cria arquivos vazios
@@ -54,3 +75,66 @@ Exemplo:
 
 ```bash
 cat arquivo.txt
+
+(origem: concatenate)
+
+##mkdir
+Cria diretórios (pastas)
+
+Exemplo: mkdir nome_pasta
+
+##mv
+Move ou renomeia arquivos e diretórios
+
+Exemplo: mv arquivo.txt pasta/
+Exemplo: mv antigo.txt novo.txt
+
+##cp
+Copia arquivos
+
+Exemplo: cp arquivo.txt copia.txt
+Exemplo: cp arquivo.txt pasta/
+
+##rm
+Remove arquivos
+
+Exemplo: rm arquivo.txt
+Exemplo: rm -i arquivo.txt (pede confirmação)
+
+##chmod
+Altera permissões de arquivos
+
+Permissões:
+r = leitura
+w = escrita
+x = execução
+
+Valores:
+4 = leitura
+2 = escrita
+1 = execução
+
+Exemplo: chmod 644 arquivo.txt
+Exemplo: chmod 600 arquivo.txt
+Exemplo: chmod +x script.sh
+
+##git status
+Mostra o estado dos arquivos no repositório
+
+Exemplo: git status
+
+##git add
+Adiciona arquivos para o commit
+
+Exemplo: git add .
+(ponto = tudo que está na pasta atual)
+
+##git commit
+Salva as alterações localmente
+
+Exemplo: git commit -m "mensagem"
+
+##git push
+Envia as alterações para o GitHub
+
+Exemplo git push
